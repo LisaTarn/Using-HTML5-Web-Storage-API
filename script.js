@@ -5,13 +5,10 @@ saveButton.addEventListener ("click", displayUserName);
 
 function displayUserName (){
   const displayName = document.getElementById("username").value
-  localStorage.setItem("display-name", displayName);
+  window.localStorage.setItem("display-name", displayName);
 
-  const savedDisplayName = localStorage.getItem("display-name");
+  const savedDisplayName = window.localStorage.getItem("display-name");
   document.getElementById("display-name").innerHTML = savedDisplayName;
-  display-name.oninput = () => {
-      localStorage.setItem('display-name', savedDisplayName)
-    };
 }
 
 clearButton.addEventListener ("click", clearUserName);
