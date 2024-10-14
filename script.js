@@ -9,6 +9,7 @@ function displayUserName (){
 
   const savedDisplayName = localStorage.getItem("display-name");
   document.getElementById("display-name").innerHTML = savedDisplayName;
+  localStorage.setItem("display-name", displayName);
 }
 
 clearButton.addEventListener ("click", clearUserName);
