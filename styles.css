@@ -1,0 +1,27 @@
+body {
+    background-color: aliceblue;
+    position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#display-name {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
