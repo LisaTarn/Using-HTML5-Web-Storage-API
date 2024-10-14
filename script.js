@@ -5,9 +5,9 @@ saveButton.addEventListener ("click", displayUserName);
 
 function displayUserName (){
   const displayName = document.getElementById("username").value
-  window.localStorage.setItem("display-name", displayName);
+  localStorage.setItem("display-name", displayName);
 
-  const savedDisplayName = window.localStorage.getItem("display-name");
+  const savedDisplayName = localStorage.getItem("display-name");
   document.getElementById("display-name").innerHTML = savedDisplayName;
 }
 
