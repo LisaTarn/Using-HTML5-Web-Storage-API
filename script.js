@@ -2,7 +2,8 @@ const saveButton = document.getElementById("save-btn");
 const clearButton = document.getElementById("clear-btn");
 
 saveButton.addEventListener ("click", displayUserName);
-window.addEventListener("load", (browser.cookies.get("display-name")); 
+window.addEventListener("load", (document.getElementById("display-name").innerHTML = savedDisplayName;
+)); 
 
 function displayUserName (){
   const displayName = document.getElementById("username").value
