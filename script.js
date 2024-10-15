@@ -2,8 +2,6 @@ vconst saveButton = document.getElementById("save-btn");
 const clearButton = document.getElementById("clear-btn");
 
 saveButton.addEventListener ("click", displayUserName);
-window.addEventListener("load", (event)); => {  document.getElementById("display-name").innerHTML = savedDisplayName;
-                                             }
 
 function displayUserName (){
   const displayName = document.getElementById("username").value
