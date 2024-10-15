@@ -2,7 +2,7 @@ const saveButton = document.getElementById("save-btn");
 const clearButton = document.getElementById("clear-btn");
 
 saveButton.addEventListener ("click", displayUserName);
-window.addEventListener("load", (displayUserNameReload); 
+window.addEventListener("load", (); 
 
 function displayUserName (){
   const displayName = document.getElementById("username").value
@@ -10,11 +10,6 @@ function displayUserName (){
 
   const savedDisplayName = localStorage.getItem("display-name");
   document.getElementById("display-name").innerHTML = savedDisplayName;
-}
-
-function displayUserNameReload(){
-  const SavedDisplayName = localStorage.getItem ("display-name");
-    document.getElementById("display-name").innerHTML = savedDisplayName;
 }
 
 
