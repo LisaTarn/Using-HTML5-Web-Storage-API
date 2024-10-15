@@ -2,6 +2,7 @@ const saveButton = document.getElementById("save-btn");
 const clearButton = document.getElementById("clear-btn");
 
 saveButton.addEventListener ("click", displayUserName);
+window.addEventListener("load", (event) => {  console.log("page is fully loaded");}); 
 
 function displayUserName (){
   const displayName = document.getElementById("username").value
