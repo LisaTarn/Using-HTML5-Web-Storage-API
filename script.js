@@ -1,4 +1,4 @@
-vconst saveButton = document.getElementById("save-btn");
+const saveButton = document.getElementById("save-btn");
 const clearButton = document.getElementById("clear-btn");
 
 saveButton.addEventListener ("click", displayUserName);
