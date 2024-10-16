@@ -9,7 +9,7 @@ function displayUserName (){  //function to save to local storage
   localStorage.setItem("display-name", displayName);
   const savedDisplayName = localStorage.getItem("display-name");
   document.getElementById("display-name").innerHTML = savedDisplayName;
-  document.cookie="UserName:" + savedDisplayName; //sets a cookie
+  document.cookie="User Name:" + savedDisplayName; //sets a cookie
   }
 
   function showCookieValue() { //function to show the cookie
